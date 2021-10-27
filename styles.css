@@ -6,3 +6,71 @@
 .navbar-toggler{
     align-items: initial;
 }
+
+.home__img--circleleft{
+    border-radius: 50%;
+    border: 0rem!important;
+    margin-top: 3%;
+    width: 24rem;
+    height: 24rem;
+}
+.home__img--circleright{
+    border-radius: 50%;
+    border: 0rem!important;
+    margin-top: 3%;
+    width: 24rem;
+    height: 24rem;
+}
+
+.home__txt--left{
+    border: #ffffff;
+    background-color: #BEEEE4;
+    margin-top: 1rem;
+    padding-left: 50rem;
+    margin-right: 50rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.home__txt--right{
+    border: #ffffff;
+    background-color: #BEEEE4;
+    margin-top: 1rem;
+    margin-left: 50rem;
+    padding-right: 50rem;
+    padding-left: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.tab__shift--right{
+    text-align: right;
+}
+
+.tab__shift--left{
+    text-align: left;
+}
+
+.center__item{
+    display: grid;
+	place-content: center;
+}
+.right__item{
+    display: grid;
+	place-content: right;
+}
+
+.home_parent--container{
+    padding: 20px;
+}
+
+.home__child--container{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
