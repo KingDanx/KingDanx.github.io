@@ -13,7 +13,6 @@
 
 .home__img--circle{
     border-radius: 50%;
-    border: 0rem!important;
     margin-top: 3%;
     width: 20.5rem;
     height: 20.5rem;
@@ -21,7 +20,22 @@
 
 .home__txt{
     border: #ffffff;
-    background-color: #BEEEE4;
+    background-color: #6da7d9;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-right: 158rem;
+    margin-left: 158rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+    border-radius: 30px;
+}
+
+.home__txt--right{
+    border: #ffffff;
+    background-color: #d99f6d;
     font-size: 20px;
     font-weight: bold;
     margin-top: 1rem;
@@ -36,7 +50,7 @@
 
 .home__txt--center{ 
     border: #ffffff;
-    background-color: #93B3C0;
+    background-image: linear-gradient(to right,#d99f6d, #93B3C0);
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1rem;
