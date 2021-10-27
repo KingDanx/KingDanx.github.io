@@ -121,6 +121,13 @@
     }
 }
 
+@media only screen and (max-width: 1100px){
+    .home__img--circle{
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
 @media only screen and (max-width: 991px){
     .home__img--circle{
         width: 11rem;
