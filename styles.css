@@ -98,6 +98,7 @@
     font-family: 'Cinzel Decorative', cursive;
     color: whitesmoke;
 }
+
 .contact__text--format{
    margin: 0rem;
 }
@@ -168,6 +169,7 @@
     border-radius: 10%;
     margin: 1rem;
 }
+
 .project__img--arduino{
     width: 20%;
     border-radius: 10%;
