@@ -93,7 +93,7 @@
 }
 
 .contact__background--format{
-    padding: 2rem;
+    padding: 1rem;
     background-image:linear-gradient(to right, #314A7E 20%, #F4A814 40%, #9B11D3 60%, #FF6600 80%);
     font-family: 'Cinzel Decorative', cursive;
     color: whitesmoke;
@@ -105,13 +105,13 @@
 .contact__images--layout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
     justify-items: center;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 .contact__images{
-    width: 80%;
+    width: 75%;
     display: grid;
     place-items: center;
 }
@@ -138,6 +138,7 @@
     border-color: #314A7E;
     border-radius: 500px;
     margin: 1rem;
+    margin-top: 0.5rem;
 }
 
 .contact__buttons--instagram-color{
@@ -145,6 +146,7 @@
     border-color: transparent;
     border-radius: 500px;
     margin: 1rem;
+    margin-top: 0.5rem;
 }
 
 .contact__buttons--etsy-color{
@@ -152,11 +154,13 @@
     border-color: #FF6600;
     border-radius: 500px;
     margin: 1rem;
+    margin-top: 0.5rem;
 }
 
 .project__page--grid{
     display: grid; 
     grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .project__img--code{
