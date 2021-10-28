@@ -1,4 +1,9 @@
 
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .bg-light{
     background-color: #ffffff!important;
 }
@@ -91,6 +96,59 @@
     width: 100%;
     margin-top: -22.2rem;
     float: left;
+}
+
+.contact__text--format{
+    padding: 2rem;
+    background-image:linear-gradient(to right, #314A7E 20%, #F4A814 40%, #9B11D3 60%, #FF6600 80%);
+}
+
+.contact__images--layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-top: 3rem;
+}
+
+.contact__images{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.contact__buttons{
+    display: grid;
+    place-items: center;
+    width: 17rem;
+    height: 5rem;
+    font-size: 40px;
+    filter: drop-shadow(10px 10px 6px rgba(17, 15, 15, 0.301));
+}
+
+.contact__buttons a{
+    color: white;
+}
+
+.contact__buttons--facebook-color{
+    background-color: #314A7E;
+    border-color: #314A7E;
+    border-radius: 500px;
+    margin: 1rem;
+}
+
+.contact__buttons--instagram-color{
+    background-image: linear-gradient(45deg, #F4A814, #9B11D3);
+    border-color: transparent;
+    border-radius: 500px;
+    margin: 1rem;
+}
+
+.contact__buttons--etsy-color{
+    background-color: #FF6600;
+    border-color: #FF6600;
+    border-radius: 500px;
+    margin: 1rem;
 }
 
 @media only screen and (max-width: 991px){
