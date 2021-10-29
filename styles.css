@@ -20,6 +20,7 @@
 .home__txt{
     border: #ffffff;
     background-color: #6da7d9;
+    color: #e7e7e7;
     font-size: 20px;
     font-weight: bold;
     margin-top: 1rem;
@@ -35,6 +36,7 @@
 .home__txt--right{
     border: #ffffff;
     background-color: #d99f6d;
+    color: #e7e7e7;
     font-size: 20px;
     font-weight: bold;
     margin-top: 1rem;
@@ -50,6 +52,7 @@
 .home__txt--center{ 
     border: #ffffff;
     background-image: linear-gradient(to right,#d99f6d, #6da7d9);
+    color: #e7e7e7;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -160,14 +163,40 @@
 
 .project__page--grid{
     display: grid; 
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.project__img--grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.project__img--code{
-    width: 70%;
+.project__img--code {
+    width: 55%;
     border-radius: 10%;
-    margin: 1rem;
+    margin: 0.5%;
+    margin-left: 2%;
+    justify-content: space-evenly;
+}
+
+.project__img--KDA {
+    margin-top: -10%;
+    margin-left: -6%;
+}
+
+.project__img--squirt {
+    margin-top: 1%;
+    margin-left: -6%;
+}
+
+.project__img--code1 {
+    margin-left: 33%;
+}
+
+.project__img--goku {
+    margin-left: 33%;
+    margin-top: 2%;
 }
 
 .project__img--arduino{
@@ -183,6 +212,20 @@
     border-top-right-radius: 15%;
     margin-right: 0rem;
 }
+
+.project__header--text {
+    background-image: linear-gradient(to right,#6da7d9, #d99f6d)!important;
+    margin: 1rem;
+    padding: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-left: -1rem;
+    margin-right: 0;
+    padding-left: 3rem;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #e7e7e7;
+}
+
 .card-header:first-child {
     border-radius: calc(-4.75rem - 1px) calc(0.9rem - 1px) 0 0;
 }
@@ -217,6 +260,11 @@
 .card-header:first-child {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.btn-link{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #e7e7e7;
 }
 
 @media only screen and (max-width: 991px){
