@@ -4,6 +4,13 @@
     color: #e7e7e7;
 }
 
+.home__txt--name{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #e7e7e7;
+    font-size: 20px;
+}
+ 
+
 .navbar-toggler{
     align-items: initial;
 }
@@ -54,6 +61,7 @@
 .home__txt--center{ 
     border: #ffffff;
     background-image: linear-gradient(to right,#d99f6d, #6da7d9);
+    font-family: 'Cinzel Decorative', cursive;
     color: #e7e7e7;
     font-size: 20px;
     font-weight: bold;
