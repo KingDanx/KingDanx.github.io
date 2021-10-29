@@ -177,6 +177,48 @@
     margin-top: -55%; 
 }
 
+.projects__dropdown--menu{
+    background-image: linear-gradient(to right,#d99f6d, #6da7d9)!important;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    margin-right: 0rem;
+}
+.card-header:first-child {
+    border-radius: calc(-4.75rem - 1px) calc(0.9rem - 1px) 0 0;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #e7e7e7;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.accordion .card:not(:first-of-type) .card-header:first-child {
+    border-radius: inherit;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-header:first-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
 @media only screen and (max-width: 991px){
     .home__child--center{
             margin-top: -14.2rem;
