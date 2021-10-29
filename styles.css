@@ -1,5 +1,7 @@
 .bg-light{
     background-color: #ffffff!important;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #e7e7e7;
 }
 
 .navbar-toggler{
@@ -229,6 +231,7 @@
 .card-header:first-child {
     border-radius: calc(-4.75rem - 1px) calc(0.9rem - 1px) 0 0;
 }
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -265,6 +268,30 @@
 .btn-link{
     font-family: 'Cinzel Decorative', cursive;
     color: #e7e7e7;
+}
+
+.aboutme__img--code {
+    width: 45%;
+    border-radius: 10%;
+    margin: 0.5%;
+    margin-left: 2%;
+    justify-content: space-evenly;
+}
+
+.aboutme__img--grid{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.aboutme__img--center {
+    display: grid;
+    justify-items: end;
+}
+
+.aboutme__img--desk {
+    margin-top: -3.5%;
 }
 
 @media only screen and (max-width: 991px){
